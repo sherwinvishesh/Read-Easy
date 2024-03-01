@@ -1,0 +1,247 @@
+
+
+
+/**
+* © James Baldwin 2021-2023. All Rights Reserved.
+* Dylexic.css 
+* 
+* Author: James Baldwin
+* 
+* Description: styling to be injected into each web page.
+*
+*/
+
+
+@font-face{
+    font-family: dyslexic;
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: dyslexic3;
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic3-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: dyslexic3b;
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic3-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: dyslexicb;
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: dyslexici;
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic-Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: dyslexicib;
+    src: url("chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
+
+}
+
+:root{
+    --text-color:#EEEEEE;
+    --background:#4d4d4d;
+    --shadow-color: rgba(0, 0, 0, .25);
+    --dark-text: #272932;
+    --button-hightlight: #000;
+    --highlight-color:#616161;
+    --accent: #350946;
+    --gery-color: #C4C4C4;
+    --background-second: #000;
+    --tab-highlight:#c2c2c2;
+    --tab-color:#616161;
+    --header-color: #ff2400;
+    --sel-font: dyslexic3;
+    --on-color: #616161;
+    --anim: cubic-bezier(.62,.55,.6,1.24);
+  }
+  
+.db-stt-readout{
+    display: grid;
+    position: fixed;
+    place-content: center;
+    top: 1rem;
+    right: 1rem;
+    padding: 2rem;
+    gap: 1rem; 
+    border-radius: 1rem;
+    background-color: var(--background);
+    box-sizing: unset;
+    box-shadow: 0px 0px 10px 1px var(--shadow-color);
+    font-size: 1.3rem;
+    max-width: 10rem;
+    color: var(--dark-text);
+    z-index: 100000000000000000000000000000000;
+    
+}
+
+.db-stt-readout>button{
+    position: relative;
+    background: var(--background-second);
+    border-radius: .25rem;
+    color: var(--header-color);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.db-stt-readout>button::before{
+    content: '';
+    position: absolute;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 10px 1px var(--accent);
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+.db-stt-readout>button:hover::before{
+    opacity: 100%;
+}
+.db-readout, .db-full-transcript{
+    height: fit-content;
+    background-color: white;
+    color: var(--dark-text);
+    padding: .25rem;
+    box-shadow: inset 1px 1px 3px 1px var(--shadow-color);
+}
+.db-full-transcript{
+    cursor: pointer;
+    position: relative;
+    margin-top: 1em;
+}
+.db-full-transcript::before{
+    position: absolute;
+    content: "Click to copy";
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-radius: 0 0 1em 1em;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+}
+.db-full-transcript::after{
+    content: "";
+    position: absolute;
+    background-color: var(--background-second);
+    top:50%;
+    left:50%;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(90deg) scale(.1) rotateY(180deg);
+    clip-path: polygon(0 16%, 21% 0, 59% 78%, 88% 47%, 100% 67%, 57% 100%);
+    transition: transform 200ms linear, opacity 200ms linear;
+}
+.clicked:checked~.db-full-transcript::after{
+    transform-origin: 1rem 1rem;
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1) rotateY(180deg);
+}
+.clicked{
+    appearance: none;
+    background: none;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+
+.db-full-transcript:hover::before{
+    opacity: 100;
+}
+
+#overlay{
+    pointer-events: none;
+    position: fixed;
+    z-index: 1000000;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+}
+
+.reader-button img{
+ height:10ch;
+ width: 10ch;
+ z-index: 100000;
+}
+.reader-button button{
+    border: 2px solid rgb(0,0,0,0);
+    border-radius: 2ch;
+    background: none;
+}
+.reader-button button:hover{
+    border: 2px solid black;
+    border-radius: 2ch;
+}
+.reader-button button:active{
+    background:rgb(115, 156, 129);
+}
+
+.reader-button{
+    background: none;
+    display: fixed;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    bottom: 50%;
+    left: 90%;
+    -webkit-transform: none;
+    transform: none;
+    z-index: 10000000000000;
+}
+
+.fj-db-slide-in{
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: fit-content;
+    z-index: 1000;
+    background-color: var(--background);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid var(--background-second);
+    box-shadow: 4px 4px 10px 0px var(--shadow-color);
+    animation: slide-in 200ms var(--anim);
+}
+.fj-db-slide-in button{
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--accent);
+    height: 20px;
+    width: 20px;
+}
+.fj-db-slide-in button::before, .fj-db-slide-in button::after{
+    content: "";
+    position: fixed;
+    transform-origin: 50% 50%;
+    top:   49px;
+    right: 43px;
+    height: 2px;
+    width: 15px;
+    background-color: var(--accent);
+    border-radius: 2px;
+}
+.fj-db-slide-in button::after{
+    transform: rotate(-45deg);
+}
+.fj-db-slide-in button::before{
+    transform: rotate(45deg);
+}
+@keyframes slide-in {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

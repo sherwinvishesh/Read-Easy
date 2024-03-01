@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": "img/ReadEasy-fotor-circular.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "scripts/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "dyslexic.css" ],
+      "js": [ "scripts/createElement.js", "scripts/highlighter.js", "scripts/stt.js", "scripts/dyslexic.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "A browser extension revolutionizing reading with dyslexia-friendly tools, making literature accessible and enjoyable for all.",
+
+   "icons": {
+      "128": "img/ReadEasy.png",
+      "16": "img/ReadEasy.png",
+      "48": "img/ReadEasy.png"
+   },
+   "manifest_version": 3,
+   "name": "ReadEasy",
+   "permissions": [ "storage", "contextMenus", "fontSettings", "notifications" ],
+   
+   "version": "1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "fonts/*.otf", "fonts/*.ttf", "img/*.svg" ]
+   } ]
+}
