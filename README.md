@@ -58,10 +58,10 @@ After installation, the Read Easy icon will appear in your browser's toolbar. Cl
 ## About Open Dyslexia
 OpenDyslexic is a new open sourced font created to increase readability for readers with dyslexia. The typeface includes regular, bold, italic, and bold-italic styles, and 2 typefaces: OpenDyslexic, and OpenDyslexic-Alta. It was created to help with my reading, and is being updated continually and improved based on input from other dyslexic users. There are no restrictions on using OpenDyslexic. OpenDyslexic is created to help with some of the symptoms of dyslexia. Letters have heavy weighted bottoms to indicate direction. You are able to quickly figure out which part of the letter is down which aids in recognizing the correct letter, and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping. 
 
-![FC1](/font-compare.png)
+![FC1](/Public/font-compare.png)
 OpenDyslexic uses unique letter shapes, to help prevent confusion.
 
-![FC2](/rotate.png)
+![FC2](/Public/rotate.png)
 
 A heavier bottom is used to show which way is supposed to be down. OpenDyslexic also has other features, like wider letter spacing and a unique italic style.
 
