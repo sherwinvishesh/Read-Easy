@@ -66,19 +66,30 @@ OpenDyslexic uses unique letter shapes, to help prevent confusion.
 A heavier bottom is used to show which way is supposed to be down. OpenDyslexic also has other features, like wider letter spacing and a unique italic style.
 
 
-## Support
-
-For support, please open an issue on the GitHub project page.
 
 ## Contributing
 
-We welcome contributions! Please read our contributing guide to learn how to propose bugfixes, improvements, and new features.
+Contributions to enhance this project are welcomed. Please feel free to fork the repository, make changes, and submit pull requests.
+
+## Support
+
+If you encounter any issues or have any questions, please submit an issue on the GitHub issue tracker or feel free to contact me.
+
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Read Easy is open source and available under the [Apache-2.0 License](LICENSE).
 
 ## Acknowledgments
 
 - Special thanks to the OpenDyslexic project for providing the fonts used in this extension.
+- Thanks to everyone who visits and uses this page. Your interest and feedback are what keep us motivated.
+- Special thanks to all the contributors who help maintain and improve this project. Your dedication and hard work are greatly appreciated.
 
+## Connect with Me
+
+Feel free to reach out and connect with me on [LinkedIn](https://www.linkedin.com/in/sherwinvishesh) or [Instagram](https://www.instagram.com/sherwinvishesh/).
+
+---
+
+Made with ❤️ by Sherwin
