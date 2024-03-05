@@ -51,7 +51,31 @@ To get started with Read Easy, follow these steps:
 
 ## Usage
 
-After installation, the Read Easy icon will appear in your browser's toolbar. Click on it to activate the extension and customize your reading experience through the settings panel.
+After installing Read Easy, you will find a simple and intuitive interface to tailor your reading experience on the web. Here's how you can use the various features:
+
+1. **Accessing the Extension**: Click on the Read Easy icon in your browser's toolbar to open the control panel.
+
+2. **Font Manipulation**: 
+   - **Toggle Default**: Switch between the default browser font and your chosen settings with the 'Toggle Default' switch.
+   - **Font Type**: Select from the OpenDyslexic font options, including styles like OpenDyslexic-Bold, to improve readability.
+   - **or Use Google Font**: For additional font options, you can opt to use fonts from Google Fonts.
+
+3. **Customization**: 
+   - **Scale**: Adjust the font size by changing the scale to make the text larger or smaller according to your needs.
+   - **Color**: Change the font color to increase contrast and reduce eye strain.
+
+4. **Spacing Controls**: 
+   - **Word Spacing**: Increase or decrease the space between words.
+   - **Line Spacing**: Adjust the space between lines of text to prevent crowding.
+   - **Letter Spacing**: Modify the space between letters to help in distinguishing individual characters.
+
+5. **Overlays**: Enhance focus and tracking by enabling overlays that guide your reading.
+
+6. **Reading Controls**: Optimize the page layout to minimize distractions and focus on the text.
+
+7. **Ruler**: Use the on-screen ruler to follow lines of text and maintain your place.
+
+Remember, Read Easy is designed to be flexible and can be turned on or off as needed. Feel free to experiment with different settings to find what works best for you. If you find something particularly helpful or have suggestions, please provide us with feedback!
 
 
 
