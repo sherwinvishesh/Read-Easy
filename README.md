@@ -9,6 +9,10 @@ Read Easy is a browser extension designed to make literature more accessible and
 - **Dyslexia-Friendly Fonts**: Utilize over 200+ fonts, including 6 OpenDyslexic fonts, specifically designed to increase readability for users with dyslexia.
 - **Text-to-Speech**: Convert text into speech to assist users with dyslexia in reading and comprehending text more easily.
 - **Customizable Reading Experience**: Customize font size, color schemes, and layouts to suit individual preferences and needs.
+- **Color and Contrast Adjustment**: Options to modify background and text colors to reduce strain.
+- **Layout Optimization**: Simplifies page layouts to enhance focus and understanding.
+
+
 
 ## Built With
 
@@ -48,6 +52,10 @@ To get started with Read Easy, follow these steps:
 
 ### Direct Installation
 > Read Easy will soon be available on Google Chrome Web Store
+
+## ASU-FURI Research
+The `ASU-FURI` folder is dedicated to the research paper developed during the ASU-FURI (Arizona State University Fulton Undergraduate Research Initiative) project. This section will host the research paper and related materials upon completion.
+
 
 ## Usage
 
