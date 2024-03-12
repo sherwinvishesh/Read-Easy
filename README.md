@@ -34,12 +34,16 @@ https://github.com/sherwinvishesh/Read-Easy/assets/60791187/b0760a45-87a4-4660-9
 To get started with Read Easy, follow these steps:
 
 1. Clone the repository to your local machine.
-   ```
+   ```bash
    git clone https://github.com/sherwinvishesh/Read-Easy.git
+   ```
+  
+2. Navigate to the `Browser-Extension` directory where the source code is located.
+   ```bash
    cd Read-Easy
    cd Browser-Extension
+   open .
    ```
-2. Navigate to the `Browser-Extension` directory where the source code is located.
 3. Load the extension into your browser:
    - For Chrome:
      1. Go to `chrome://extensions/`
