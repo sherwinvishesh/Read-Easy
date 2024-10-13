@@ -1,5 +1,7 @@
 # Read Easy: Dyslexia-Friendly Browser Extension
 
+![Static Badge](https://img.shields.io/badge/DubHacks-_Project_Submitted-blue)
+
 ## Description
 
 Read Easy is a browser extension designed to make literature more accessible and enjoyable for everyone, especially for individuals with dyslexia. By leveraging dyslexia-friendly tools, such as the OpenDyslexic font and text-to-speech features, Read Easy aims to enhance the reading experience for users with dyslexia.
