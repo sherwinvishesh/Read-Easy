@@ -59,8 +59,6 @@ To get started with Read Easy, follow these steps:
 ### Direct Installation
 > Read Easy will soon be available on Google Chrome Web Store
 
-## ASU-FURI Research
-The `ASU-FURI` folder is dedicated to the research paper developed during the ASU-FURI (Arizona State University Fulton Undergraduate Research Initiative) project. This section will host the research paper and related materials upon completion.
 
 
 ## Usage
