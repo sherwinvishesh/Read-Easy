@@ -21,6 +21,7 @@ Read Easy is a browser extension designed to make literature more accessible and
 - HTML
 - CSS
 - JavaScript
+- SpeechSynthesisAPI
 
 ## User Interface
 
